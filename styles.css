@@ -238,7 +238,7 @@ img {
 }
 
 .home__content{
-    grid-template-column:.5fr 3fr;
+    grid-template-columns:.5fr 3fr;
     padding-top:3.5rem;
     align-items:center;
 }
@@ -256,4 +256,13 @@ img {
 
 .home__social-icon:hover{
     color:var(--first-color-alt);
+}
+
+.home__blob{
+    width:200px;
+    fill:var(--first-color);
+}
+
+.home__blob-img{
+    width: 110px;
 }
